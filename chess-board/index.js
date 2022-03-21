@@ -30,7 +30,6 @@ function resetGrid(grid) {
       grid[r][c].style.backgroundColor = cellColor;
     }
   }
-  return grid;
 }
 
 function renderBoard(grid) {
