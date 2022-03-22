@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  width: 500px;
+  height: 550px;
+}
+
+.row {
+  display: flex;
+  height: 9.1%;
+  width: 100%;
+}
+
+.cell {
+  height: 100%;
+  width: 10%;
+  border: 1px solid black;
+}
