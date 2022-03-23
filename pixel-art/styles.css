@@ -13,6 +13,8 @@ body {
 #board {
   width: 500px;
   height: 550px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .row {
@@ -24,5 +26,6 @@ body {
 .cell {
   height: 100%;
   width: 10%;
-  border: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
