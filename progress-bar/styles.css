@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 50px;
+  background-color: blanchedalmond;
+}
+
+.bar {
+  background-color: mediumslateblue;
+  width: 0;
+  height: 100%;
+}
+
+button {
+  margin: 10px 0;
+}
